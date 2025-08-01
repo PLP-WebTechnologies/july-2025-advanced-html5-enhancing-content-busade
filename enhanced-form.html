@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+</head>
+<body>
+    <h1>Welcome to Registration website</h1>
+    <p>On this simple website we do a lot things</p>
+    <h2>What we do?</h2>
+    <ul>
+        <li>We collect user information</li>
+        <li>We store user data securely</li>
+        <li>We provide a user-friendly interface</li>
+
+    <div style=" margin-left: 10%; border-radius: 10px;">
+        <h4>Register here</h4>    
+        <img style="height: 10em;" src="reg.png" alt="Register">
+
+        <form action="">
+            <label for="userid">User ID:</label>
+            <input type="text" id="userid" name="userid" value="12345" readonly>
+            <br><br>
+            <label for="fullname"> Full Name:</label>
+            <input type="text" name="fullname" id="FullName" placeholder="Enter your full name" required autocomplete="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="Email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password">Password:</label> 
+            <input type="password" name="password" id="Password" placeholder="Enter your password" required>
+            <br><br>
+            <label for="gender">Gender</label>
+            
+            <select style="width: 200px;">
+                <option value="" disabled selected>Select you Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+    <p>Below is a table containg price list</p>
+    <table border="1" style="width: 100%; text-align: center;">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chicken</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Oil</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Bag of rice</td>
+                <td>$30</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+<footer>
+    <p>&copy; 2025 Assignment Website. All rights reserved.</p>
+    
+</footer>
+</html>
